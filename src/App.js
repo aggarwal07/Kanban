@@ -1,23 +1,35 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Board from './Components/Board/Board';
+import  Boarduser from './Components/Board2/Boarduser';
+import Boardstat from './Components/Board3/Boardstat';
+
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+ 
+} from "react-router-dom";
+
+
+import Navbar from './Components/Navbar/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+
+      <Navbar/>
+      <Routes>
+      <Route exact path='/Priority' element={<Board key="Priority"/>}></Route> 
+      <Route exact path='/User' element={<Boarduser key="User"/>}></Route> 
+      <Route exact path='/Status' element={<Boardstat key="Status"/>}></Route> 
+      
+      
+
+
+      </Routes>
+      </Router>
     </div>
   );
 }

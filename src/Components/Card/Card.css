@@ -1,0 +1,33 @@
+.card{
+    margin: 1vw;
+    padding: 10px;
+    width: 17vw;
+    height: 17vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+.flex{
+    display: flex;
+}
+.padding{
+    padding-left: 0.5vw;
+    
+    
+    
+}
+.border{
+    border: 2px solid rgb(249, 244, 244);
+    border-radius: 6px;
+}
+.width{
+    width: 6vw;
+}
+.text-grey{
+    color: rgba(121, 115, 115, 0.882)
+}
+.bold{
+    font-weight: bolder;
+}
+
+.color{
+    background-color: white;
+}

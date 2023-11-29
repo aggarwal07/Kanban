@@ -1,0 +1,20 @@
+.flex{
+    display: flex;
+}
+.space-between{
+    justify-content: space-between;
+}
+.head{
+    width: 17vw;
+    margin: 1vw;
+}
+.button{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: larger;
+}
+.colorr{
+    background-color: rgba(229, 237, 237, 0.757);
+}

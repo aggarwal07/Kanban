@@ -1,0 +1,68 @@
+.navbar{
+    
+    height: 2.5vw;
+    
+}
+.dropdown {
+    display: inline-block;
+    position: relative;
+    width: 15vw;
+    
+  }
+  .dropdown-content {
+    background-color: whitesmoke;
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+    
+  }
+  .dropdown-content span {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+  }
+  
+.margin-left{
+    margin-left: 0.5vw;
+}
+
+.span-margin{
+    margin-left: 3vw;
+    margin-bottom: 0.5vw;
+}
+.margin-up{
+    margin-top: 0.5vw;
+}
+.drop-button{
+    background-color: white;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    width: 4.5vw;
+    height: 1.5vw;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.list{
+  list-style: none;
+  
+  
+}
+.list:hover {
+  display: block;
+}
+.flex{
+  display: flex;
+}
+.space-between{
+  justify-content: space-between;
+}
+.hover{
+  margin-left: 2.4vw;
+}
